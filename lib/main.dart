@@ -7,9 +7,9 @@ class XylophoneApp extends StatelessWidget {
   const XylophoneApp({Key? key}) : super(key: key);
 
   //Building a function that will replace the repeated codes
-  void playSound() {
+  void playSound(int soundNumber) {
     final player = AudioCache();
-    player.play('note1.wav');
+    player.play('note$soundNumber.wav');
   }
 
   @override
@@ -28,7 +28,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 onPressed: () {
                   //repeated sound play codes being replaced with playSound function
-                  playSound();
+                  playSound(1);
                 },
                 child: Text('play'),
               ),
@@ -40,7 +40,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 onPressed: () {
                   //repeated sound play codes being replaced with playSound function
-                  playSound();
+                  playSound(2);
                 },
                 child: Text('play'),
               ),
@@ -52,7 +52,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 onPressed: () {
                   //repeated sound play codes being replaced with playSound function
-                  playSound();
+                  playSound(3);
                 },
                 child: Text('play'),
               ),
@@ -64,7 +64,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 onPressed: () {
                   //repeated sound play codes being replaced with playSound function
-                  playSound();
+                  playSound(4);
                 },
                 child: Text('play'),
               ),
@@ -76,7 +76,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 onPressed: () {
                   //repeated sound play codes being replaced with playSound function
-                  playSound();
+                  playSound(5);
                 },
                 child: Text('play'),
               ),
@@ -88,7 +88,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 onPressed: () {
                   //repeated sound play codes being replaced with playSound function
-                  playSound();
+                  playSound(6);
                 },
                 child: Text('play'),
               ),
@@ -100,7 +100,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 onPressed: () {
                   //repeated sound play codes being replaced with playSound function
-                  playSound();
+                  playSound(7);
                 },
                 child: Text('play'),
               ),
@@ -112,7 +112,7 @@ class XylophoneApp extends StatelessWidget {
                 ),
                 onPressed: () {
                   //repeated sound play codes being replaced with playSound function
-                  playSound();
+                  playSound(1);
                 },
                 child: Text('play'),
               ),
