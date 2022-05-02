@@ -19,6 +19,9 @@ class XylophoneApp extends StatelessWidget {
         appBar: AppBar(),
         body: SafeArea(
           child: Column(
+            //making the textbuttons to fill the horizontal space evenly
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+
             children: [
               //Adding expanded widget to all textbuttons to make them fill up the vertical spaces evenly
               Expanded(
