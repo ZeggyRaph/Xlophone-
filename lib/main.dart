@@ -6,6 +6,12 @@ void main() => runApp(XylophoneApp());
 class XylophoneApp extends StatelessWidget {
   const XylophoneApp({Key? key}) : super(key: key);
 
+  //Building a function that will replace the repeated codes
+  void playSound() {
+    final player = AudioCache();
+    player.play('note1.wav');
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -21,8 +27,8 @@ class XylophoneApp extends StatelessWidget {
                   onSurface: Colors.grey,
                 ),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note1.wav');
+                  //repeated sound play codes being replaced with playSound function
+                  playSound();
                 },
                 child: Text('play'),
               ),
@@ -33,8 +39,8 @@ class XylophoneApp extends StatelessWidget {
                   onSurface: Colors.grey,
                 ),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note2.wav');
+                  //repeated sound play codes being replaced with playSound function
+                  playSound();
                 },
                 child: Text('play'),
               ),
@@ -45,8 +51,8 @@ class XylophoneApp extends StatelessWidget {
                   onSurface: Colors.grey,
                 ),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note3.wav');
+                  //repeated sound play codes being replaced with playSound function
+                  playSound();
                 },
                 child: Text('play'),
               ),
@@ -57,8 +63,8 @@ class XylophoneApp extends StatelessWidget {
                   onSurface: Colors.grey,
                 ),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note4.wav');
+                  //repeated sound play codes being replaced with playSound function
+                  playSound();
                 },
                 child: Text('play'),
               ),
@@ -69,8 +75,8 @@ class XylophoneApp extends StatelessWidget {
                   onSurface: Colors.grey,
                 ),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note5.wav');
+                  //repeated sound play codes being replaced with playSound function
+                  playSound();
                 },
                 child: Text('play'),
               ),
@@ -81,8 +87,8 @@ class XylophoneApp extends StatelessWidget {
                   onSurface: Colors.grey,
                 ),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note6.wav');
+                  //repeated sound play codes being replaced with playSound function
+                  playSound();
                 },
                 child: Text('play'),
               ),
@@ -93,8 +99,8 @@ class XylophoneApp extends StatelessWidget {
                   onSurface: Colors.grey,
                 ),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note7.wav');
+                  //repeated sound play codes being replaced with playSound function
+                  playSound();
                 },
                 child: Text('play'),
               ),
@@ -105,8 +111,8 @@ class XylophoneApp extends StatelessWidget {
                   onSurface: Colors.grey,
                 ),
                 onPressed: () {
-                  final player = AudioCache();
-                  player.play('note1.wav');
+                  //repeated sound play codes being replaced with playSound function
+                  playSound();
                 },
                 child: Text('play'),
               ),
