@@ -20,101 +20,118 @@ class XylophoneApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: [
-              TextButton(
-                style: TextButton.styleFrom(
-                  primary: Colors.white,
-                  backgroundColor: Colors.red,
-                  onSurface: Colors.grey,
+              //Adding expanded widget to all textbuttons to make them fill up the vertical spaces evenly
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    primary: Colors.white,
+                    backgroundColor: Colors.red,
+                    onSurface: Colors.grey,
+                  ),
+                  onPressed: () {
+                    //repeated sound play codes being replaced with playSound function
+                    playSound(1);
+                  },
+                  child: Text('play'),
                 ),
-                onPressed: () {
-                  //repeated sound play codes being replaced with playSound function
-                  playSound(1);
-                },
-                child: Text('play'),
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  primary: Colors.white,
-                  backgroundColor: Colors.orange,
-                  onSurface: Colors.grey,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    primary: Colors.white,
+                    backgroundColor: Colors.orange,
+                    onSurface: Colors.grey,
+                  ),
+                  onPressed: () {
+                    //repeated sound play codes being replaced with playSound function
+                    playSound(2);
+                  },
+                  child: Text('play'),
                 ),
-                onPressed: () {
-                  //repeated sound play codes being replaced with playSound function
-                  playSound(2);
-                },
-                child: Text('play'),
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  primary: Colors.white,
-                  backgroundColor: Colors.yellow,
-                  onSurface: Colors.grey,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    primary: Colors.white,
+                    backgroundColor: Colors.yellow,
+                    onSurface: Colors.grey,
+                  ),
+                  onPressed: () {
+                    //repeated sound play codes being replaced with playSound function
+                    playSound(3);
+                  },
+                  child: Text('play'),
                 ),
-                onPressed: () {
-                  //repeated sound play codes being replaced with playSound function
-                  playSound(3);
-                },
-                child: Text('play'),
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  primary: Colors.white,
-                  backgroundColor: Colors.green,
-                  onSurface: Colors.grey,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    primary: Colors.white,
+                    backgroundColor: Colors.green,
+                    onSurface: Colors.grey,
+                  ),
+                  onPressed: () {
+                    //repeated sound play codes being replaced with playSound function
+                    playSound(4);
+                  },
+                  child: Text('play'),
                 ),
-                onPressed: () {
-                  //repeated sound play codes being replaced with playSound function
-                  playSound(4);
-                },
-                child: Text('play'),
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  primary: Colors.white,
-                  backgroundColor: Colors.teal,
-                  onSurface: Colors.grey,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    primary: Colors.white,
+                    backgroundColor: Colors.teal,
+                    onSurface: Colors.grey,
+                  ),
+                  onPressed: () {
+                    //repeated sound play codes being replaced with playSound function
+                    playSound(5);
+                  },
+                  child: Text('play'),
                 ),
-                onPressed: () {
-                  //repeated sound play codes being replaced with playSound function
-                  playSound(5);
-                },
-                child: Text('play'),
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  primary: Colors.white,
-                  backgroundColor: Colors.blue,
-                  onSurface: Colors.grey,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    primary: Colors.white,
+                    backgroundColor: Colors.blue,
+                    onSurface: Colors.grey,
+                  ),
+                  onPressed: () {
+                    //repeated sound play codes being replaced with playSound function
+                    playSound(6);
+                  },
+                  child: Text('play'),
                 ),
-                onPressed: () {
-                  //repeated sound play codes being replaced with playSound function
-                  playSound(6);
-                },
-                child: Text('play'),
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  primary: Colors.white,
-                  backgroundColor: Colors.purple,
-                  onSurface: Colors.grey,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    primary: Colors.white,
+                    backgroundColor: Colors.purple,
+                    onSurface: Colors.grey,
+                  ),
+                  onPressed: () {
+                    //repeated sound play codes being replaced with playSound function
+                    playSound(7);
+                  },
+                  child: Text('play'),
                 ),
-                onPressed: () {
-                  //repeated sound play codes being replaced with playSound function
-                  playSound(7);
-                },
-                child: Text('play'),
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  primary: Colors.white,
-                  backgroundColor: Colors.red,
-                  onSurface: Colors.grey,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    primary: Colors.white,
+                    backgroundColor: Colors.red,
+                    onSurface: Colors.grey,
+                  ),
+                  onPressed: () {
+                    //repeated sound play codes being replaced with playSound function
+                    playSound(1);
+                  },
+                  child: Text('play'),
                 ),
-                onPressed: () {
-                  //repeated sound play codes being replaced with playSound function
-                  playSound(1);
-                },
-                child: Text('play'),
               ),
             ],
           ),
